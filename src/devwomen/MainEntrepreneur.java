@@ -47,7 +47,7 @@ public class MainEntrepreneur extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        ButtonProfile.setIcon(new javax.swing.ImageIcon("C:\\Users\\Rumeysa\\Documents\\NetBeansProjects\\DevWomen\\src\\devwomen\\assets\\images.png")); // NOI18N
+        ButtonProfile.setIcon(new javax.swing.ImageIcon("C:\\Users\\Berfin\\Desktop\\DevWomen_\\DevWomen_\\src\\assets\\images.png")); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -55,15 +55,15 @@ public class MainEntrepreneur extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(590, Short.MAX_VALUE)
-                .addComponent(ButtonProfile, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(32, 32, 32))
+                .addComponent(ButtonProfile)
+                .addGap(45, 45, 45))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(15, 15, 15)
-                .addComponent(ButtonProfile, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(484, Short.MAX_VALUE))
+                .addComponent(ButtonProfile)
+                .addContainerGap(496, Short.MAX_VALUE))
         );
 
         pack();

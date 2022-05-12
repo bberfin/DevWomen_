@@ -56,8 +56,8 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace pref="590" max="32767" attributes="0"/>
-              <Component id="ButtonProfile" min="-2" pref="76" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+              <Component id="ButtonProfile" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -65,8 +65,8 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
-              <Component id="ButtonProfile" min="-2" pref="75" max="-2" attributes="0"/>
-              <EmptySpace pref="484" max="32767" attributes="0"/>
+              <Component id="ButtonProfile" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="496" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -75,7 +75,7 @@
     <Component class="javax.swing.JButton" name="ButtonProfile">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Rumeysa\Documents\NetBeansProjects\DevWomen\src\devwomen\assets\images.png"/>
+          <Image iconType="2" name="C:\Users\Berfin\Desktop\DevWomen_\DevWomen_\src\assets\images.png"/>
         </Property>
       </Properties>
     </Component>
