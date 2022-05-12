@@ -26,21 +26,109 @@ public class MainSponsor extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        ButtonProfile = new javax.swing.JButton();
+        ButtonAdvert = new javax.swing.JButton();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        TextAreaAdvert1 = new javax.swing.JTextArea();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        TextAreaAdvert2 = new javax.swing.JTextArea();
+        ButtonReview = new javax.swing.JButton();
+        ButtonReview1 = new javax.swing.JButton();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        ButtonProfile.setIcon(new javax.swing.ImageIcon("C:\\Users\\Berfin\\Desktop\\DevWomen_\\DevWomen_\\src\\assets\\sponsor_profile.png")); // NOI18N
+
+        ButtonAdvert.setText("İLAN VER");
+        ButtonAdvert.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ButtonAdvertActionPerformed(evt);
+            }
+        });
+
+        TextAreaAdvert1.setColumns(20);
+        TextAreaAdvert1.setRows(5);
+        TextAreaAdvert1.setText("\"İLAN 1 \"\n-\"ALAN\"\n-\"KONU\"\n-\"GİRİŞİMCİ \"");
+        jScrollPane1.setViewportView(TextAreaAdvert1);
+
+        TextAreaAdvert2.setColumns(20);
+        TextAreaAdvert2.setRows(5);
+        TextAreaAdvert2.setText("\"İLAN 2 \"\n-\"ALAN\"\n-\"KONU\"\n-\"GİRİŞİMCİ \"");
+        jScrollPane2.setViewportView(TextAreaAdvert2);
+
+        ButtonReview.setText("İNCELE");
+        ButtonReview.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ButtonReviewActionPerformed(evt);
+            }
+        });
+
+        ButtonReview1.setText("İNCELE");
+        ButtonReview1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ButtonReview1ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 699, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(ButtonAdvert, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(ButtonProfile)
+                .addGap(14, 14, 14))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(44, 44, 44)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(ButtonReview)
+                        .addGap(91, 91, 91))
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(ButtonReview1)
+                        .addContainerGap(88, Short.MAX_VALUE))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 573, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(ButtonProfile)
+                    .addComponent(ButtonAdvert, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(85, 85, 85)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(ButtonReview))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(18, 18, 18)
+                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(26, 26, 26)
+                        .addComponent(ButtonReview1)))
+                .addContainerGap(229, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void ButtonAdvertActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonAdvertActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ButtonAdvertActionPerformed
+
+    private void ButtonReviewActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonReviewActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ButtonReviewActionPerformed
+
+    private void ButtonReview1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonReview1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ButtonReview1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -78,5 +166,13 @@ public class MainSponsor extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton ButtonAdvert;
+    private javax.swing.JButton ButtonProfile;
+    private javax.swing.JButton ButtonReview;
+    private javax.swing.JButton ButtonReview1;
+    private javax.swing.JTextArea TextAreaAdvert1;
+    private javax.swing.JTextArea TextAreaAdvert2;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
     // End of variables declaration//GEN-END:variables
 }

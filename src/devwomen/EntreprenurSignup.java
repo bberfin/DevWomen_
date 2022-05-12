@@ -246,12 +246,14 @@ public class EntreprenurSignup extends javax.swing.JFrame {
 
     private void ButtonBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonBackActionPerformed
         Login login = new Login();
-        login.show();
+        login.setVisible(true);
         dispose();
     }//GEN-LAST:event_ButtonBackActionPerformed
 
     private void ButtonEntEnterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonEntEnterActionPerformed
-        // TODO add your handling code here:
+        MainEntrepreneur entrepreneur = new MainEntrepreneur();
+        entrepreneur.setVisible(true);
+        dispose();
     }//GEN-LAST:event_ButtonEntEnterActionPerformed
 
     private void ButtonEntSignActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonEntSignActionPerformed

@@ -47,23 +47,23 @@ public class MainEntrepreneur extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        ButtonProfile.setIcon(new javax.swing.ImageIcon("C:\\Users\\Berfin\\Desktop\\DevWomen_\\DevWomen_\\src\\assets\\images.png")); // NOI18N
+        ButtonProfile.setIcon(new javax.swing.ImageIcon("C:\\Users\\Berfin\\Desktop\\DevWomen_\\DevWomen_\\src\\assets\\entrepreneur_profile.png")); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(590, Short.MAX_VALUE)
+                .addContainerGap(341, Short.MAX_VALUE)
                 .addComponent(ButtonProfile)
-                .addGap(45, 45, 45))
+                .addGap(32, 32, 32))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(15, 15, 15)
+                .addGap(17, 17, 17)
                 .addComponent(ButtonProfile)
-                .addContainerGap(496, Short.MAX_VALUE))
+                .addContainerGap(494, Short.MAX_VALUE))
         );
 
         pack();
