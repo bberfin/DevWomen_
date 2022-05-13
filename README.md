@@ -13,7 +13,14 @@
 
 Uygulamanın fark yaratan bir diğer yanı ise :
 > yalnızca girişimcilerin değil sponsorların da sesini duyurabilmesi .
-![sponsor](https://user-images.githubusercontent.com/72701330/168316800-f6f9f530-8747-450c-ba26-b3bc878f3959.png)
-## Bir girişime destek olmak isteyen kurumlar platformumuz aracılığıyla yatırım yapmak istediklerini ilan edebilir , isterlerse konu üzerinde sınırlandırmalar da yaparak alanını özelleştirebilir.
-## Mesela :
-- "iş hayatında kadının da yeri var diyen bir projeniz varsa , ilgileniyoruz ! " gibi :)
+![girşimcii](https://user-images.githubusercontent.com/72701330/168317944-0a0610c1-0cfa-4bed-83eb-b255c3b1eea0.png)
+## Bir girişime destek olmak isteyen kurumlar platformumuz aracılığıyla yatırım yapmak istediklerini ilan edebilir , isterlerse konu üzerinde sınırlandırmalar da yaparak alanını özelleştirebilir.Mesela :
+> "iş hayatında kadının da yeri var diyen bir projeniz varsa , ilgileniyoruz ! " gibi :)
+
+Ve ENDİŞELENMEYİN ! Fikirleriniz güvende :
+- Girişimcilerin paylaşımlarını yalnızca sponsorlar görebilir
+- Herkese paylaşım yapmak istemeyen  girişimciler hangi sponsorlar tarafından görüntülenebileceklerini de seçebilir
+- Sponsorlar isterlerse konu özelleştirmesi de yaparak ilanlar açabilir
+![sponsor](https://user-images.githubusercontent.com/72701330/168318121-c3beb164-63e2-4874-9914-b8459b05627e.png)
+
+
