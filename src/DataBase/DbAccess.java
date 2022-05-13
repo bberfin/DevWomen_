@@ -6,14 +6,12 @@ package DataBase;
 
 
 import java.sql.Connection;
-import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
 import Person.Entrepreneur;
+import Person.Sponsor;
 import java.sql.SQLException;
-import javax.swing.JPasswordField;
-import javax.swing.JTextPane;
 
 
 public class DbAccess {
@@ -53,7 +51,7 @@ public class DbAccess {
                     connect = db.getConnection();
                     statement = connect.createStatement();
                     resultset=statement.executeQuery("select * from USERS");
-
+  
                     while (resultset.next()) {
 
 				if(resultset.getString("Email").equals(email)&&resultset.getString("Userpassword").equals(password)){
@@ -63,6 +61,63 @@ public class DbAccess {
                            return entrepreneur;
                         }}
                     if (entrepreneur==null)
+                    { 
+                    return null;}
+            
+        } catch (SQLException e) {
+                    System.out.println(e.getErrorCode());
+                   
+        } finally {
+                    try {
+				connect.close();
+			} catch (SQLException e2) {
+				System.out.println("DataBase.DbAccess.getData()");
+			}
+        }
+                return null;
+                    
+                }
+ public Sponsor sponsor(String email,String password){
+                    Sponsor sponsor= null;
+                    try {
+                        connect=db.getConnection();
+                        statement=connect.createStatement();
+                        resultset=statement.executeQuery("select*from SPONSOR");
+                        while(resultset.next()){
+                            if(resultset.getString("CompanyMail").equals(email)&&resultset.getString("CompanyPassword").equals(password)){
+                                return sponsor;
+                                
+                            }
+                        }
+                    } catch (SQLException e) {
+                        System.out.println("DataBase.DbAccess.sponsor()");
+                    }
+                    finally{
+                        try {
+                            connect.close();
+                        } catch (SQLException e) {
+                            System.out.println("DataBase.DbAccess.sponsor()");
+                        }
+                    }
+          return null;
+                }
+             
+                public Sponsor getSponsorData(String email,String password){
+                    Sponsor sponsor=null;
+                     try {
+                    connect = db.getConnection();
+                    statement = connect.createStatement();
+                    resultset=statement.executeQuery("select * from SPONSOR");
+  
+                    while (resultset.next()) {
+
+				if(resultset.getString("CompanyMail").equals(email)&&resultset.getString("CompanyPassword").equals(password)){
+
+                          sponsor = new Sponsor( resultset.getString("CompanyName"),resultset.getString("WorkingArea"), resultset.getString("CompanyMail"), resultset.getString("CompanyPassword"));
+                            
+                           return sponsor;
+                        }}
+                    if (sponsor==null)
                     { 
                     return null;}
             
