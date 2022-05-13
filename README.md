@@ -30,7 +30,7 @@ Uygulamanın fark yaratan bir diğer yanı ise :
 >Sponsor Gözünden : (Girişimci ilanları gözüküyor)
 ![sponsor](https://user-images.githubusercontent.com/72701330/168318121-c3beb164-63e2-4874-9914-b8459b05627e.png)
 
-### ------------------- UYGULAMAMIZIN İÇİNE GÖZ ATATLIM ------------------- :
+### ------------------- UYGULAMAMIZIN İÇİNE GÖZ ATALIM ------------------- :
 Öncelikle , 
 - Güzel bir proje olsa da sponsorluğunu yaparak destek mi olsam diyorsunuz ?? Yoksa güzel bir projeniz var ve sponsor mu arıyorsunuz ??
 Seçiminizi yaparak ilerleyiniz
@@ -82,6 +82,10 @@ Seçiminizi yaparak ilerleyiniz
 https://user-images.githubusercontent.com/72701330/168373673-27d4b97d-96cd-42bf-aca2-cf56622671f1.mp4
 
 ## DEVWOMEN DEMO : 
+
+
+https://user-images.githubusercontent.com/72701330/168374355-2123d58e-5473-4bdf-9a31-bc38536187b8.mp4
+
 
 
 
