@@ -10,6 +10,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import Person.Entrepreneur;
+import Person.Sponsor;
 
 /**
  *
@@ -31,6 +32,31 @@ public class DbWrite {
              statement.setString(2,entrepreneur.getUserName());
              statement.setString(3,entrepreneur.getEmail());
              statement.setString(4,entrepreneur.getPassword());
+             statement.executeUpdate();
+            System.out.println("connected");
+        } catch (SQLException e) {
+            System.out.println( e.getMessage());
+    }
+        finally{
+            try {
+                statement.close();
+                connect.close();
+            } catch (SQLException e) {
+                System.out.println("DataBase.DbWrite.addEntAccount()");
+            }
+        }
+        }
+    
+     public void addSponsorAccount(Sponsor sponsor){
+       
+        try {
+            connect=db.getConnection();
+             String query="INSERT INTO SPONSOR(Area,CompanyName,CompanyMail,CompanyPassword) VALUES(?,?,?,?)";
+             statement=connect.prepareStatement(query);
+             statement.setString(1, sponsor.getWorkingArea());
+             statement.setString(2,sponsor.getCompanyName());
+             statement.setString(3,sponsor.getEmail());
+             statement.setString(4,sponsor.getPassword());
              statement.executeUpdate();
             System.out.println("connected");
         } catch (SQLException e) {
