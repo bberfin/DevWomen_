@@ -52,7 +52,22 @@ Seçiminizi yaparak ilerleyiniz
 
 ### Merak etmeyin, şu an taslak aşamasında yakında **güzelleşecek** !!!! :) 
 
+
+> Girişimcilerimiz için ana sayfada girişimlerini anlatıp detaylandırabileceği bir alan ayrılmış olacak .
+
+> Sağ üstteki butona tıklayarak profilinizi görüntüleyebilirsiniz.
+
+> Aynı zamanda sponsor olmak için proje bekleyen kurumların ilanlarını da görebilecekler .
+
 ![55555](https://user-images.githubusercontent.com/72701330/168323800-edbb7530-e242-4e06-8e0c-cff057bd6126.jpg)
+
+
+
+> Sponsorlarımız için ana sayfada girişimleri görüp incelemeleri için bir alan olacak.
+
+> Sağ üstteki butona tıklayarak profilinizi görüntüleyebilirsiniz.
+
+> Aynı zamanda sponsor olmak isteyen kurumlar bunun duyurusunu da "ilan ver" diyerek yapabilecek .
 
 ![6666](https://user-images.githubusercontent.com/72701330/168323817-257edaf5-054a-4a0b-a2c2-f52852dffa8a.jpg)
 
