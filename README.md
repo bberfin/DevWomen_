@@ -40,12 +40,16 @@ Seçiminizi yaparak ilerleyiniz
 - Giriş~Kayıt ekranı  bizi karşılıyor :
 > Yeni üyelerimiz kayıt butonuna doğru , hoşgeldiniz :)
 
-> Bir girişimciyseniz kayıt olmak için isim, e-mail ve şifre gibi bilgileri girmeniz gerekiyor.
+> Bir girişimciyseniz kayıt olmak için isim, e-mail, çalışma alanınız ve şifre gibi bilgileri girmeniz gerekiyor.
 
-> Eğer sponsor iseniz kurumunuz adı ve kurumsal e-posta ile kayıt olmalısınız.
+
 
 ![2222 (1)](https://user-images.githubusercontent.com/72701330/168323637-23a596ec-80d9-4288-bdfe-5486ceec7750.jpg)
 ![333](https://user-images.githubusercontent.com/72701330/168323663-335a1165-08c6-41df-9525-ed1868bd0574.jpg)
+
+> Eğer sponsor iseniz  kurumunuzun adı ve kurumsal e-posta ile kayıt olmalısınız ve ilgilendiğiniz alanı belirtmelisiniz .
+
+![7777 (1)](https://user-images.githubusercontent.com/72701330/168327594-941c05b2-8517-4d97-a3f7-f2f0ae829f75.jpg)
 ![444](https://user-images.githubusercontent.com/72701330/168323672-13cc0e98-3cfd-40ad-ab39-f38f9116b7c0.jpg)
 
 - Ve şimdilik fikir verme açısından sponsor ve girişimci ekranımızın içi ...
