@@ -4,9 +4,14 @@
  */
 package devwomen;
 
+import Person.Entrepreneur;
+import java.awt.TextField;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
 
 /**
  *
@@ -36,6 +41,9 @@ public class MainEntrepreneur extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
         ButtonProfile = new javax.swing.JButton();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        TextAddIdea = new javax.swing.JTextArea();
+        ButtonAddIdea = new javax.swing.JButton();
 
         jButton1.setText("jButton1");
 
@@ -47,23 +55,41 @@ public class MainEntrepreneur extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        ButtonProfile.setIcon(new javax.swing.ImageIcon("C:\\Users\\Berfin\\Desktop\\DevWomen_\\DevWomen_\\src\\assets\\entrepreneur_profile.png")); // NOI18N
+        ButtonProfile.setIcon(new javax.swing.ImageIcon("C:\\Users\\Rumeysa\\Downloads\\DevWomen_-main\\src\\assets\\entrepreneur_profile.png")); // NOI18N
+
+        TextAddIdea.setColumns(20);
+        TextAddIdea.setRows(5);
+        jScrollPane2.setViewportView(TextAddIdea);
+
+        ButtonAddIdea.setText("FİKİR EKLE");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(46, 46, 46)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 242, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 157, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(341, Short.MAX_VALUE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(ButtonAddIdea)
+                .addGap(105, 105, 105))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(ButtonProfile)
-                .addGap(32, 32, 32))
+                .addGap(15, 15, 15))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(17, 17, 17)
-                .addComponent(ButtonProfile)
-                .addContainerGap(494, Short.MAX_VALUE))
+                .addGap(14, 14, 14)
+                .addComponent(ButtonProfile, javax.swing.GroupLayout.PREFERRED_SIZE, 63, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(14, 14, 14)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 327, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(ButtonAddIdea)
+                .addContainerGap(59, Short.MAX_VALUE))
         );
 
         pack();
@@ -102,17 +128,18 @@ public class MainEntrepreneur extends javax.swing.JFrame {
                 new MainEntrepreneur().setVisible(true);
             }
         });
-        
-      
-        
+
 
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton ButtonAddIdea;
     private javax.swing.JButton ButtonProfile;
+    private javax.swing.JTextArea TextAddIdea;
     private javax.swing.JButton jButton1;
     private javax.swing.JOptionPane jOptionPane1;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JTextArea jTextArea1;
     private javax.swing.JToolBar jToolBar1;
     // End of variables declaration//GEN-END:variables

@@ -145,8 +145,8 @@
                                   </Group>
                               </Group>
                               <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                  <Component id="TextPassword" alignment="0" pref="165" max="32767" attributes="0"/>
-                                  <Component id="TextEmail" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="TextEntPassword" alignment="0" pref="165" max="32767" attributes="0"/>
+                                  <Component id="TextEntEmail" alignment="0" max="32767" attributes="0"/>
                                   <Component id="TextentName" alignment="0" max="32767" attributes="0"/>
                                   <Component id="jScrollPane4" alignment="0" max="32767" attributes="0"/>
                               </Group>
@@ -177,12 +177,12 @@
                       </Group>
                       <Group type="103" groupAlignment="1" attributes="0">
                           <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-                          <Component id="TextEmail" min="-2" max="-2" attributes="0"/>
+                          <Component id="TextEntEmail" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="TextPassword" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TextEntPassword" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace pref="87" max="32767" attributes="0"/>
                       <Component id="ButtonEntSign" min="-2" pref="42" max="-2" attributes="0"/>
@@ -217,9 +217,9 @@
             </Component>
             <Component class="javax.swing.JTextField" name="TextentName">
             </Component>
-            <Component class="javax.swing.JTextField" name="TextEmail">
+            <Component class="javax.swing.JTextField" name="TextEntEmail">
             </Component>
-            <Component class="javax.swing.JPasswordField" name="TextPassword">
+            <Component class="javax.swing.JPasswordField" name="TextEntPassword">
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel7">
               <Properties>
@@ -266,7 +266,7 @@
                               </Group>
                               <EmptySpace min="-2" pref="164" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="TextEntPassword" pref="114" max="32767" attributes="0"/>
+                                  <Component id="TextEntPasswordEntry" pref="114" max="32767" attributes="0"/>
                                   <Component id="jScrollPane3" max="32767" attributes="0"/>
                               </Group>
                           </Group>
@@ -290,7 +290,7 @@
                       <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="TextEntPassword" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TextEntPasswordEntry" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
                       <Component id="ButtonEntEnter" min="-2" max="-2" attributes="0"/>
@@ -317,11 +317,11 @@
 
               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
               <SubComponents>
-                <Component class="javax.swing.JTextPane" name="TextEntMail">
+                <Component class="javax.swing.JTextPane" name="TextEntMailEntry">
                 </Component>
               </SubComponents>
             </Container>
-            <Component class="javax.swing.JPasswordField" name="TextEntPassword">
+            <Component class="javax.swing.JPasswordField" name="TextEntPasswordEntry">
             </Component>
             <Component class="javax.swing.JButton" name="ButtonEntEnter">
               <Properties>

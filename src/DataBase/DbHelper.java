@@ -4,7 +4,9 @@
  */
 package DataBase;
 
-import com.sun.jdi.connect.spi.Connection;
+
+
+import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.DriverManager;
 /**
@@ -13,17 +15,18 @@ import java.sql.DriverManager;
  */
 public class DbHelper {
     private String userName="root";
-    private String password="Rumeysa06.";
+    private  String password="Rumeysa06.";
     private String port="jdbc:mysql://localhost:3306/devwomen";
     
     public Connection getConnection()throws SQLException{
         
-        return (Connection) DriverManager.getConnection(port,userName,password);
+        return DriverManager.getConnection(port,userName,password);
         
     }
     public void showErrorMessage(SQLException e){
         System.out.println("DataBase.DbHelper.showErrorMessage() "+e.getMessage() +" "+e.getErrorCode());
     }
 
+  
 
 }

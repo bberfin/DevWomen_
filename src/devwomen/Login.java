@@ -29,7 +29,9 @@ public class Login extends javax.swing.JFrame {
         ButtonSponsor = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(204, 255, 255));
 
+        ButtonEntrepreneur.setBackground(new java.awt.Color(153, 153, 255));
         ButtonEntrepreneur.setText("Girişimci");
         ButtonEntrepreneur.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -37,6 +39,7 @@ public class Login extends javax.swing.JFrame {
             }
         });
 
+        ButtonSponsor.setBackground(new java.awt.Color(153, 153, 255));
         ButtonSponsor.setText("Sponsor");
         ButtonSponsor.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

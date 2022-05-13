@@ -3,18 +3,35 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 package devwomen;
+import DataBase.DbAccess;
+import DataBase.DbHelper;
+import DataBase.DbWrite;
+import Person.Entrepreneur;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import javax.swing.JOptionPane;
 /**
  *
  * @author Rumeysa
  */
 public class EntreprenurSignup extends javax.swing.JFrame {
-
-    /**
-     * Creates new form EntreprenurSignup
-     */
+    DbHelper dbhelper = new DbHelper();
+    DbAccess dbaccess = new DbAccess();
+    DbWrite dbwrite = new DbWrite();
+        Connection connect = null;
+   // PreparedStatement statement = null;
+    Statement statement2 = null;
+    ResultSet resultset;
+   
+ 
     public EntreprenurSignup() {
         initComponents();
+
     }
 
     /**
@@ -38,8 +55,8 @@ public class EntreprenurSignup extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         TextentName = new javax.swing.JTextField();
-        TextEmail = new javax.swing.JTextField();
-        TextPassword = new javax.swing.JPasswordField();
+        TextEntEmail = new javax.swing.JTextField();
+        TextEntPassword = new javax.swing.JPasswordField();
         jLabel7 = new javax.swing.JLabel();
         jScrollPane4 = new javax.swing.JScrollPane();
         TextentArea = new javax.swing.JTextPane();
@@ -47,8 +64,8 @@ public class EntreprenurSignup extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jScrollPane3 = new javax.swing.JScrollPane();
-        TextEntMail = new javax.swing.JTextPane();
-        TextEntPassword = new javax.swing.JPasswordField();
+        TextEntMailEntry = new javax.swing.JTextPane();
+        TextEntPasswordEntry = new javax.swing.JPasswordField();
         ButtonEntEnter = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         ButtonBack = new javax.swing.JButton();
@@ -117,8 +134,8 @@ public class EntreprenurSignup extends javax.swing.JFrame {
                                     .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGap(196, 196, 196)))
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addComponent(TextPassword, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 165, Short.MAX_VALUE)
-                            .addComponent(TextEmail, javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(TextEntPassword, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 165, Short.MAX_VALUE)
+                            .addComponent(TextEntEmail, javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(TextentName, javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jScrollPane4, javax.swing.GroupLayout.Alignment.LEADING))))
                 .addContainerGap(209, Short.MAX_VALUE))
@@ -141,11 +158,11 @@ public class EntreprenurSignup extends javax.swing.JFrame {
                         .addGap(18, 18, 18)))
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jLabel3)
-                    .addComponent(TextEmail, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(TextEntEmail, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(23, 23, 23)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4)
-                    .addComponent(TextPassword, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(TextEntPassword, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 87, Short.MAX_VALUE)
                 .addComponent(ButtonEntSign, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(53, 53, 53))
@@ -159,7 +176,7 @@ public class EntreprenurSignup extends javax.swing.JFrame {
 
         jLabel6.setText("ŞİFRE");
 
-        jScrollPane3.setViewportView(TextEntMail);
+        jScrollPane3.setViewportView(TextEntMailEntry);
 
         ButtonEntEnter.setText("GİRİŞ");
         ButtonEntEnter.addActionListener(new java.awt.event.ActionListener() {
@@ -181,7 +198,7 @@ public class EntreprenurSignup extends javax.swing.JFrame {
                             .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(164, 164, 164)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(TextEntPassword, javax.swing.GroupLayout.DEFAULT_SIZE, 114, Short.MAX_VALUE)
+                            .addComponent(TextEntPasswordEntry, javax.swing.GroupLayout.DEFAULT_SIZE, 114, Short.MAX_VALUE)
                             .addComponent(jScrollPane3)))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(332, 332, 332)
@@ -198,7 +215,7 @@ public class EntreprenurSignup extends javax.swing.JFrame {
                 .addGap(59, 59, 59)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel6)
-                    .addComponent(TextEntPassword, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(TextEntPasswordEntry, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(69, 69, 69)
                 .addComponent(ButtonEntEnter)
                 .addContainerGap(76, Short.MAX_VALUE))
@@ -251,13 +268,29 @@ public class EntreprenurSignup extends javax.swing.JFrame {
     }//GEN-LAST:event_ButtonBackActionPerformed
 
     private void ButtonEntEnterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonEntEnterActionPerformed
-        MainEntrepreneur entrepreneur = new MainEntrepreneur();
-        entrepreneur.setVisible(true);
-        dispose();
+        Entrepreneur entrepreneur = new Entrepreneur();
+        entrepreneur=dbaccess.getData(TextEntMailEntry.getText(), TextEntPasswordEntry.getText());
+        if(entrepreneur!=null){
+          MainEntrepreneur mainentrepreneur = new MainEntrepreneur();
+        mainentrepreneur.setVisible(true);
+        dispose(); 
+        }
+        else{
+               JOptionPane.showMessageDialog(null,"YANLIŞ GİRİLDİ");
+
+        }
+        
     }//GEN-LAST:event_ButtonEntEnterActionPerformed
 
     private void ButtonEntSignActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonEntSignActionPerformed
-        
+      Entrepreneur ent= new Entrepreneur();
+      ent.setUserName(TextentName.getText());
+      ent.setEmail(TextEntEmail.getText());
+      ent.setPassword(TextEntPassword.getText());
+      ent.setWorkingArea(TextentArea.getText());
+      dbwrite.addEntAccount(ent);
+      
+      ///****************************////
     }//GEN-LAST:event_ButtonEntSignActionPerformed
 
     /**
@@ -299,10 +332,10 @@ public class EntreprenurSignup extends javax.swing.JFrame {
     private javax.swing.JButton ButtonBack;
     private javax.swing.JButton ButtonEntEnter;
     private javax.swing.JButton ButtonEntSign;
-    private javax.swing.JTextField TextEmail;
-    private javax.swing.JTextPane TextEntMail;
+    private javax.swing.JTextField TextEntEmail;
+    private javax.swing.JTextPane TextEntMailEntry;
     private javax.swing.JPasswordField TextEntPassword;
-    private javax.swing.JPasswordField TextPassword;
+    private javax.swing.JPasswordField TextEntPasswordEntry;
     private javax.swing.JTextPane TextentArea;
     private javax.swing.JTextField TextentName;
     private javax.swing.ButtonGroup buttonGroup1;
