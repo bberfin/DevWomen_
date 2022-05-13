@@ -30,7 +30,7 @@ Uygulamanın fark yaratan bir diğer yanı ise :
 >Sponsor Gözünden : (Girişimci ilanları gözüküyor)
 ![sponsor](https://user-images.githubusercontent.com/72701330/168318121-c3beb164-63e2-4874-9914-b8459b05627e.png)
 
-### ------------------- UYGULAMAMIZIN İÇİNE GÖZ ATATLIM ------------------- :
+### ------------------- UYGULAMAMIZIN İÇİNE GÖZ ATALIM ------------------- :
 Öncelikle , 
 - Güzel bir proje olsa da sponsorluğunu yaparak destek mi olsam diyorsunuz ?? Yoksa güzel bir projeniz var ve sponsor mu arıyorsunuz ??
 Seçiminizi yaparak ilerleyiniz
