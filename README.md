@@ -17,6 +17,7 @@
 Uygulamanın fark yaratan bir diğer yanı ise :
 > yalnızca girişimcilerin değil sponsorların da sesini duyurabilmesi .
 
+>Girişimci Gözünden : (Sponsor ilanları gözüküyor)
 ![girşimcii](https://user-images.githubusercontent.com/72701330/168317944-0a0610c1-0cfa-4bed-83eb-b255c3b1eea0.png)
 ## Bir girişime destek olmak isteyen kurumlar platformumuz aracılığıyla yatırım yapmak istediklerini ilan edebilir , isterlerse konu üzerinde sınırlandırmalar da yaparak alanını özelleştirebilir.Mesela :
 > "iş hayatında kadının da yeri var diyen bir projeniz varsa , ilgileniyoruz ! " gibi :)
@@ -26,6 +27,7 @@ Uygulamanın fark yaratan bir diğer yanı ise :
 - Herkese paylaşım yapmak istemeyen  girişimciler hangi sponsorlar tarafından görüntülenebileceklerini de seçebilir
 - Sponsorlar isterlerse konu özelleştirmesi de yaparak ilanlar açabilir
 
+>Sponsor Gözünden : (Girişimci ilanları gözüküyor)
 ![sponsor](https://user-images.githubusercontent.com/72701330/168318121-c3beb164-63e2-4874-9914-b8459b05627e.png)
 
 
