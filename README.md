@@ -76,9 +76,13 @@ Seçiminizi yaparak ilerleyiniz
 
 ![6666](https://user-images.githubusercontent.com/72701330/168323817-257edaf5-054a-4a0b-a2c2-f52852dffa8a.jpg)
 
-
+## DEVWOMEN DEMO : 
 
 https://user-images.githubusercontent.com/59581456/168368669-c60e0d55-f966-4d74-bf76-9772aac400ce.mp4
+
+
+## DEVWOMEN TANITIM VİDEOSU
+https://user-images.githubusercontent.com/59581456/168373819-89e36e93-406b-45f0-b700-c981367e76f4.mp4
 
 
 
