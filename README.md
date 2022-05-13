@@ -30,4 +30,20 @@ Uygulamanın fark yaratan bir diğer yanı ise :
 >Sponsor Gözünden : (Girişimci ilanları gözüküyor)
 ![sponsor](https://user-images.githubusercontent.com/72701330/168318121-c3beb164-63e2-4874-9914-b8459b05627e.png)
 
+### ------------------- UYGULAMAMIZIN İÇİNE GÖZ ATATLIM ------------------- :
+Öncelikle , 
+- Güzel bir proje olsa da sponsorluğunu yaparak destek mi olsam diyorsunuz ?? Yoksa güzel bir projeniz var ve sponsor mu arıyorsunuz ??
+![111](https://user-images.githubusercontent.com/72701330/168323465-7ecbe07a-92d6-4a73-9445-f639bdf835cc.jpg)
+
+- Giriş~Kayıt ekranı  bizi karşılıyor :
+![2222 (1)](https://user-images.githubusercontent.com/72701330/168323637-23a596ec-80d9-4288-bdfe-5486ceec7750.jpg)
+![333](https://user-images.githubusercontent.com/72701330/168323663-335a1165-08c6-41df-9525-ed1868bd0574.jpg)
+![444](https://user-images.githubusercontent.com/72701330/168323672-13cc0e98-3cfd-40ad-ab39-f38f9116b7c0.jpg)
+
+- Ve şimdilik fikir verme açısından sponsor ve girişimci ekranımızın içi ...
+### merak etmeyin güzelleşecek !!!! :) 
+
+![55555](https://user-images.githubusercontent.com/72701330/168323800-edbb7530-e242-4e06-8e0c-cff057bd6126.jpg)
+![6666](https://user-images.githubusercontent.com/72701330/168323817-257edaf5-054a-4a0b-a2c2-f52852dffa8a.jpg)
+
 
