@@ -2,7 +2,7 @@
 
 ## DevWomen ile  cinsiyeti bir kriter olarak belirlemeyen tüm sponsorları 
 #  yöneticisi kadın olan girişimlerle buluşturuyoruz  
-  ![devWomen (1)](https://user-images.githubusercontent.com/72701330/168314484-02093958-5ca1-49ce-b8d3-996e9df2b6be.png)
+![devWomen (1)](https://user-images.githubusercontent.com/72701330/168314484-02093958-5ca1-49ce-b8d3-996e9df2b6be.png)
  
  >Kadın girişimciler , ne yazık ki bazı kurumlar tarafından cinsiyetlerinden dolayı ~~yetersiz~~ görülüyor. 
  
@@ -13,14 +13,16 @@
 
 Uygulamanın fark yaratan bir diğer yanı ise :
 > yalnızca girişimcilerin değil sponsorların da sesini duyurabilmesi .
+
 ![girşimcii](https://user-images.githubusercontent.com/72701330/168317944-0a0610c1-0cfa-4bed-83eb-b255c3b1eea0.png)
 ## Bir girişime destek olmak isteyen kurumlar platformumuz aracılığıyla yatırım yapmak istediklerini ilan edebilir , isterlerse konu üzerinde sınırlandırmalar da yaparak alanını özelleştirebilir.Mesela :
 > "iş hayatında kadının da yeri var diyen bir projeniz varsa , ilgileniyoruz ! " gibi :)
 
-Ve ENDİŞELENMEYİN ! Fikirleriniz güvende :
+### Ve ENDİŞELENMEYİN ! Fikirleriniz güvende :
 - Girişimcilerin paylaşımlarını yalnızca sponsorlar görebilir
 - Herkese paylaşım yapmak istemeyen  girişimciler hangi sponsorlar tarafından görüntülenebileceklerini de seçebilir
 - Sponsorlar isterlerse konu özelleştirmesi de yaparak ilanlar açabilir
+
 ![sponsor](https://user-images.githubusercontent.com/72701330/168318121-c3beb164-63e2-4874-9914-b8459b05627e.png)
 
 
