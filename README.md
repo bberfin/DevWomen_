@@ -50,7 +50,7 @@ Seçiminizi yaparak ilerleyiniz
 
 - Ve şimdilik fikir verme açısından sponsor ve girişimci ekranımızın içi ...
 
-### merak etmeyin güzelleşecek !!!! :) 
+### Merak etmeyin, şu an taslak aşamasında yakında **güzelleşecek** !!!! :) 
 
 ![55555](https://user-images.githubusercontent.com/72701330/168323800-edbb7530-e242-4e06-8e0c-cff057bd6126.jpg)
 
