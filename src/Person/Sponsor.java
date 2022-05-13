@@ -9,29 +9,26 @@ package Person;
  * @author Rumeysa
  */
 public class Sponsor{
-    private int id;
+
     private String CompanyName;
     private String WorkingArea;
     private String Email;
     private String password;
 
-    /**
-     * @return the id
-     */
-    public int getId() {
-        return id;
+    public Sponsor(String CompanyName, String WorkingArea, String Email, String password) {
+        this.CompanyName=CompanyName;
+        this.WorkingArea=WorkingArea;
+        this.Email=Email;
+        this.password=password;
+
+    }
+      public Sponsor() {
+   
+
     }
 
-    /**
-     * @param id the id to set
-     */
-    public void setId(int id) {
-        this.id = id;
-    }
 
-    /**
-     * @return the CompanyName
-     */
+
     public String getCompanyName() {
         return CompanyName;
     }
