@@ -76,7 +76,11 @@ Seçiminizi yaparak ilerleyiniz
 
 ![6666](https://user-images.githubusercontent.com/72701330/168323817-257edaf5-054a-4a0b-a2c2-f52852dffa8a.jpg)
 
-https://user-images.githubusercontent.com/59581456/168346691-231c77e3-ef3d-46c6-9e03-9e01790e4b36.mp4
+
+
+https://user-images.githubusercontent.com/59581456/168368669-c60e0d55-f966-4d74-bf76-9772aac400ce.mp4
+
+
 
 
 
