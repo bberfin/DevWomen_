@@ -5,7 +5,7 @@
 ![devWomen (1)](https://user-images.githubusercontent.com/72701330/168314484-02093958-5ca1-49ce-b8d3-996e9df2b6be.png)
 
 
-### Biz bu platform aracılığı ile kadın girişimcilerin **projelerini ispatlamak yerine  kendilerini ispatlamak zorunda kaldıkları** evreyi aradan çıkarmayı 
+### Biz bu platform aracılığı ile _kadın girişimcilerin **projelerini ispatlamak yerine  kendilerini ispatlamak zorunda kaldıkları**_ evreyi aradan çıkarmayı 
 ### Kendilerini ~~yetersiz~~ , ~~ikinci seçenek~~ olarak görmelerine sebep olan baskılara maruz kalmalarını engellemeyi hedefliyoruz
  
  >Kadın girişimciler , ne yazık ki bazı kurumlar tarafından cinsiyetlerinden dolayı ~~yetersiz~~ görülüyor. 
