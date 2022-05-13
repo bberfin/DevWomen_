@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
@@ -49,3 +50,18 @@ public class DbWrite {
 }
 
         
+=======
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package DataBase;
+
+/**
+ *
+ * @author Rumeysa
+ */
+public class DbWrite {
+    
+}
+>>>>>>> b4ecd2cfa4fd571fa8586c2d4c6a90829b2b7643
